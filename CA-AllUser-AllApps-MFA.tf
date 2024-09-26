@@ -16,7 +16,7 @@ resource "azuread_conditional_access_policy" "tfmfa01" {
       excluded_applications = []
     }
 
-    #Include All Users Group and All Guests
+    #Include All Users
     users {
       included_users = ["All"]
         
